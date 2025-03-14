@@ -10,22 +10,22 @@
 }
 
 :root {
-    --theme-color: #757F95;
-    --theme-color2: #a67c00;
-    --title-color: #171b2a;
-    --body-color: #6e768a;
-    --smoke-color: #f8f8f8;
-    --smoke-color2: #ecf1ff;
-    --black-color: #000000;
-    --black-color2: #101018;
-    --gray-color: #bdbdbd;
-    --white-color: #ffffff;
-    --body-bg: #ffffff;
-    --light-color: #bdbdbd;
-    --yellow-color: #a67c00;
-    --success-color: #28a745;
-    --error-color: #dc3545;
-    --th-border-color: #d8dde1;
+    --theme-color: #0E8C33;     /* Primary Green */
+    --theme-color2: #339e27;    /* Dark Forest Green for contrast */
+    --title-color: #171b2a;     /* Kept for readability */
+    --body-color: #505563;      /* Kept for readability */
+    --smoke-color: #f5f7fa;     /* Kept light background */
+    --smoke-color2: #e5f6ec;    /* Light green tint for background */
+    --black-color: #000000;     /* Basic black */
+    --black-color2: #101018;    /* Dark shade */
+    --gray-color: #9ea2aa;      /* Kept for visibility */
+    --white-color: #ffffff;     /* White */
+    --body-bg: #ffffff;         /* White background */
+    --light-color: #a5aab6;     /* Kept for visibility */
+    --yellow-color: #2C8D17;    /* Changed to medium green */
+    --success-color: #1A7A4E;   /* Kept jungle green */
+    --error-color: #D83A3A;     /* Changed to red for error states */
+    --th-border-color: #c2d9c7; /* Green-tinted border */
     --title-font: "Inter", sans-serif;
     --body-font: "DM Sans", sans-serif;
     --icon-font: "Font Awesome 6 Pro";
@@ -1551,8 +1551,8 @@ textarea.is-invalid {
 }
 
 .th-btn.border-1 {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .th-btn.border-1:after {
@@ -1567,8 +1567,8 @@ textarea.is-invalid {
 }
 
 .th-btn.border-1:before {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .th-btn.border-1:hover {
@@ -1588,7 +1588,7 @@ textarea.is-invalid {
     content: "";
     position: absolute;
     inset: 1px;
-    background-color: #fd8900;
+    background-color: #1a7211;
     border-radius: inherit;
     z-index: -2;
     -webkit-transition: 0.4s ease-in-out;
@@ -1759,8 +1759,8 @@ textarea.is-invalid {
 }
 
 .play-btn.gr-style1>i {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     color: var(--white-color) !important;
 }
 
@@ -2566,8 +2566,8 @@ hr.title-line {
 }
 
 .gr-bg1 {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .gr-bg2 {
@@ -7640,8 +7640,8 @@ ul.comment-list:has(>.th-comment-item~.th-comment-item):first-child>.th-post-com
 .hero-1 .hero-line1,
 .hero-1 .hero-line2 {
     position: absolute;
-    background-image: -webkit-linear-gradient( left, #a67c00 30.66%, #757F95 45.85%, #fd8900 62.34%, #ff2121 75.62%, #8322ff 93.74%);
-    background-image: linear-gradient( to right, #a67c00 30.66%, #757F95 45.85%, #fd8900 62.34%, #ff2121 75.62%, #8322ff 93.74%);
+    background-image: -webkit-linear-gradient( left, #278712 30.66%, #757F95 45.85%, #00ff0d 62.34%, #ff2121 75.62%, #8322ff 93.74%);
+    background-image: linear-gradient( to right, #278712 30.66%, #757F95 45.85%, #00ff0d 62.34%, #ff2121 75.62%, #8322ff 93.74%);
     background-size: 200% 100%;
     -webkit-animation: lineBg 5s linear infinite;
     animation: lineBg 5s linear infinite;
@@ -7679,8 +7679,8 @@ ul.comment-list:has(>.th-comment-item~.th-comment-item):first-child>.th-post-com
     width: 411px;
     top: 0;
     right: 7%;
-    background-image: -webkit-linear-gradient( 61deg, #a67c00 30.66%, #757F95 45.85%, #fd8900 62.34%, #ff2121 75.62%, #8322ff 93.74%);
-    background-image: linear-gradient( 29deg, #a67c00 30.66%, #757F95 45.85%, #fd8900 62.34%, #ff2121 75.62%, #8322ff 93.74%);
+    background-image: -webkit-linear-gradient( 61deg, #177a0e 30.66%, #757F95 45.85%, #48fd00 62.34%, #ff2121 75.62%, #8322ff 93.74%);
+    background-image: linear-gradient( 29deg, #177a0e 30.66%, #757F95 45.85%, #48fd00 62.34%, #ff2121 75.62%, #8322ff 93.74%);
 }
 
 @media (max-width: 1500px) {
@@ -7807,8 +7807,8 @@ ul.comment-list:has(>.th-comment-item~.th-comment-item):first-child>.th-post-com
     border-radius: 99px;
     margin-left: -24px;
     margin-bottom: 8px;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #0044ff 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #54fd00 100%);
     position: relative;
 }
 
@@ -8164,8 +8164,8 @@ ul.comment-list:has(>.th-comment-item~.th-comment-item):first-child>.th-post-com
     --size: 110px;
     width: var(--size);
     height: 5px;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 @media (max-width: 1199px) {
@@ -9965,8 +9965,8 @@ table.woocommerce-product-attributes {
 }
 
 .product-tab-style1 .th-btn.active:before {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 #productTabContent {
@@ -12343,8 +12343,8 @@ span.select2-selection.select2-selection--single:focus {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
     opacity: 0;
@@ -12396,8 +12396,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .team-card .th-social a:hover {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     color: var(--white-color);
 }
 
@@ -14231,8 +14231,8 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     pointer-events: none;
     border-radius: inherit;
 }
@@ -14874,8 +14874,8 @@ span.select2-selection.select2-selection--single:focus {
     content: "";
     width: 55px;
     height: 55px;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     position: absolute;
     top: 2px;
     left: 2px;
@@ -14921,8 +14921,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .tab-menu1 .tab-btn.active:after {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .tab-menu1 .tab-btn.active .date {
@@ -14961,8 +14961,8 @@ span.select2-selection.select2-selection--single:focus {
     content: "";
     width: 20px;
     height: 20px;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -15556,8 +15556,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .event-list .th-btn:before {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .event-thumb {
@@ -16272,8 +16272,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .price-card:before {
     opacity: 0;
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .price-card:after {
@@ -16326,8 +16326,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .item-active .price-card .th-btn:before {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     -webkit-transform: scaleX(1) scaleY(1);
     -ms-transform: scaleX(1) scaleY(1);
     transform: scaleX(1) scaleY(1);
@@ -16370,8 +16370,8 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
     border-radius: inherit;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
@@ -16412,8 +16412,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .dark-theme .blog-card .th-btn {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #48fd00 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .dark-theme .blog-card .th-btn:after {
@@ -16426,8 +16426,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .dark-theme .blog-card .th-btn:before {
-    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #fd8900 100%);
-    background-image: linear-gradient( to right, var(--theme-color2) 0%, #fd8900 100%);
+    background-image: -webkit-linear-gradient( left, var(--theme-color2) 0%, #249729 100%);
+    background-image: linear-gradient( to right, var(--theme-color2) 0%, #48fd00 100%);
 }
 
 .dark-theme .blog-card .th-btn:hover {
@@ -17095,7 +17095,7 @@ span.select2-selection.select2-selection--single:focus {
 .nav-item .active {
     color: #495057;
     background-color: #fff;
-    border-color: #a67c00 #a67c00 #a67c00 !important;
+    border-color: #358f12 #358f12 #358f12 !important;
 }
 
 .bullet-about li {
@@ -17108,11 +17108,11 @@ span.select2-selection.select2-selection--single:focus {
 
 .navigation-bar {
     background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 26%, rgba(166, 124, 0, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 26%, rgb(13, 112, 20) 100%);
 }
 
 .main-menu ul li a {
-    color: #636262 !important;
+    color: #000000 !important;
 }
 
 @media (max-width: 991px) {

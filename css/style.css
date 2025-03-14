@@ -159,98 +159,83 @@
 ---------------------------------------------------- */
 
 :root {
-    --ltn__primary-color: #000000;
-    --ltn__primary-color-2: #041113;
-    /* Darken */
-    --ltn__primary-color-3: #133236;
-    /* Lighten */
-    --ltn__secondary-color: #a67c00;
-    --ltn__secondary-color-2: #1a1a1a;
-    /* Darken */
-    --ltn__secondary-color-3: #a67c00;
-    /* Lighten */
-    --ltn__heading-color: #071c1f;
-    --ltn__paragraph-color: #5C727D;
+    --ltn__primary-color: #7b0323;        /* Changed to wine red */
+    --ltn__primary-color-2: #5e0219;      /* Darker wine red */
+    --ltn__primary-color-3: #9c0429;      /* Lighter wine red */
+    
+    --ltn__secondary-color: #b30532;      /* Brighter red */
+    --ltn__secondary-color-2: #3f0110;    /* Very dark red */
+    --ltn__secondary-color-3: #d1063c;    /* Vibrant red */
+    
+    --ltn__heading-color: #220009;        /* Dark red-black for headings */
+    --ltn__paragraph-color: #5C3841;      /* Adjusted to reddish-gray */
     --ltn__heading-font: 'Poppins', sans-serif;
     --ltn__body-font: 'Nunito Sans', sans-serif;
-    /* Footer ACD2D8 8CB2B2  */
-    --ltn__color-1: #8cb2b2;
-    --ltn__color-2: #ACD2D8;
-    --ltn__color-3: #A3BCC0;
-    --ltn__color-4: #84A2A6;
-    --ltn__color-5: #5C727D;
-    --ltn__color-6: #F5DFDC;
-    /* Gradient Colors */
-    --gradient-color-1: linear-gradient(90deg, rgba(242, 139, 194, 1) 0%, rgba(216, 177, 242, 1) 50%);
-    --gradient-color-2: linear-gradient(to top, rgba(7, 28, 31, 0) 0%, rgba(7, 28, 31, 1) 90%);
-    --gradient-color-3: linear-gradient(to bottom, rgba(7, 28, 31, 0) 0%, rgba(7, 28, 31, 1) 90%);
-    --gradient-color-4: linear-gradient(to top, rgba(242, 246, 247, 0) 0%, rgba(242, 246, 247, 1) 90%);
+    
+    /* Adjusted complementary colors with red undertones */
+    --ltn__color-1: #b28c8c;              /* Reddish-taupe */
+    --ltn__color-2: #D8ACA8;              /* Dusty rose */
+    --ltn__color-3: #C0A3A3;              /* Muted red-gray */
+    --ltn__color-4: #A68484;              /* Faded red */
+    --ltn__color-5: #7D5C5C;              /* Deep red-gray */
+    --ltn__color-6: #F5DCDC;              /* Light pink */
+    
+    /* Gradient Colors with red focus */
+    --gradient-color-1: linear-gradient(90deg, rgba(242, 139, 139, 1) 0%, rgba(242, 177, 177, 1) 50%);
+    --gradient-color-2: linear-gradient(to top, rgba(31, 7, 7, 0) 0%, rgba(31, 7, 7, 1) 90%);
+    --gradient-color-3: linear-gradient(to bottom, rgba(31, 7, 7, 0) 0%, rgba(31, 7, 7, 1) 90%);
+    --gradient-color-4: linear-gradient(to top, rgba(247, 242, 242, 0) 0%, rgba(247, 242, 242, 1) 90%);
     --gradient-color-5: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 70%);
-    /* Background Colors ( 1, 2, 3, 4, 5 )  */
-    --section-bg-1: #F2F6F7;
-    /* White */
-    --section-bg-2: #171B2A;
-    /* Black */
-    --section-bg-5: #FFF2F0;
-    /* White */
-    --section-bg-6: #0B2C3D;
-    /* Black */
-    --section-bg-7: #282b38;
-    /* Black */
-    /* Border Colors */
-    --border-color-1: #e5eaee;
-    /* White */
-    --border-color-2: #1e2021;
-    /* Black */
-    --border-color-3: #5C617F;
-    /* Black */
-    --border-color-4: #eb6954;
-    /* Red */
-    --border-color-5: #bc3928;
-    /* Red */
-    --border-color-6: #103034;
-    /* Black */
-    --border-color-7: #d1dae0;
-    /* White */
-    --border-color-8: #f6f6f6;
-    /* White */
-    --border-color-9: #e4ecf2;
-    /* White */
-    --border-color-10: #ebeeee;
-    /* White */
-    --border-color-11: #ededed;
-    /* White */
-    --border-color-12: #e1e6ff;
-    /* White */
-    --border-color-13: #f1f8ff;
-    /* White */
-    /* Box Shadow Colors */
-    --ltn__box-shadow-1: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+    
+    /* Background Colors with red tints */
+    --section-bg-1: #F7F2F2;              /* Pale red-white */
+    --section-bg-2: #2A171B;              /* Dark red-black */
+    --section-bg-5: #FFF0F0;              /* Very light pink */
+    --section-bg-6: #3D0B0B;              /* Deep red-black */
+    --section-bg-7: #38282B;              /* Dark red-brown */
+    
+    /* Border Colors with red focus */
+    --border-color-1: #ebe5e5;            /* Light red-gray */
+    --border-color-2: #211e1e;            /* Dark red-black */
+    --border-color-3: #7F5C5C;            /* Muted red */
+    --border-color-4: #eb5454;            /* Bright red */
+    --border-color-5: #bc2828;            /* Medium red */
+    --border-color-6: #340c0c;            /* Very dark red */
+    --border-color-7: #e0d1d1;            /* Light red-gray */
+    --border-color-8: #f6f6f6;            /* Keep original */
+    --border-color-9: #f2e4e4;            /* Light red-white */
+    --border-color-10: #eeeaea;           /* Light red-gray */
+    --border-color-11: #ededed;           /* Keep original */
+    --border-color-12: #ffe1e1;           /* Light pink */
+    --border-color-13: #fff1f1;           /* Very light pink */
+    
+    /* Box Shadow Colors - adjusted with red tints */
+    --ltn__box-shadow-1: 0 16px 32px 0 rgba(31, 7, 7, 0.1);
     --ltn__box-shadow-2: 0 0 4px rgba(0, 0, 0, 0.1);
-    /* like border */
-    --ltn__box-shadow-3: 0 1px 6px 0 rgba(32, 33, 36, .28);
-    /* like border GGL */
-    --ltn__box-shadow-4: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    --ltn__box-shadow-3: 0 1px 6px 0 rgba(36, 32, 32, .28);
+    --ltn__box-shadow-4: 0 5px 20px 0 rgba(82, 23, 23, 0.1);
     --ltn__box-shadow-5: 0 8px 16px 0 rgba(93, 93, 93, 0.1);
-    /* --ltn__box-shadow-6: 0 8px 16px 0 rgba(229, 62, 41, 0.70); */
-    --ltn__box-shadow-6: 0 0 25px 2px rgba(93, 93, 93, 0.2);
-    --ltn__box-shadow-7: 0 0 10px 0px rgba(93, 93, 93, 0.2);
-    /* Common Colors */
+    --ltn__box-shadow-6: 0 0 25px 2px rgba(93, 63, 63, 0.2);
+    --ltn__box-shadow-7: 0 0 10px 0px rgba(93, 63, 63, 0.2);
+    
+    /* Common Colors - keeping existing with adjustments */
     --black: #000000;
     --black-2: #22355B;
     --white: #fff;
-    --white-2: #F2F6F7;
-    --white-3: #e8edee;
-    --white-4: #e6ecf0;
-    --white-5: #f0f4f7;
-    --white-6: #f1f1f1;
-    --white-7: #F7F7F7;
-    --white-8: #FAFAFA;
-    --white-9: #F2F7FA;
-    --white-10: #EDEDED;
-    --red: #FF0000;
-    --red-2: #f34f3f;
-    --red-3: #DB483B;
+    --white-2: #F7F2F2;                   /* Slight red tint */
+    --white-3: #eee8e8;                   /* Slight red tint */
+    --white-4: #f0e6e6;                   /* Slight red tint */
+    --white-5: #f7f0f0;                   /* Slight red tint */
+    --white-6: #f1f1f1;                   /* Keep original */
+    --white-7: #F7F7F7;                   /* Keep original */
+    --white-8: #FAFAFA;                   /* Keep original */
+    --white-9: #FAF2F2;                   /* Slight red tint */
+    --white-10: #EDEDED;                  /* Keep original */
+    --red: #FF0000;                       /* Keep original */
+    --red-2: #f33f3f;                     /* Adjusted to pure red */
+    --red-3: #DB3B3B;                     /* Adjusted to pure red */
+    
+    /* Keeping the rest of the social media colors and other common colors */
     --silver: #C0C0C0;
     --gray: #808080;
     --maroon: #800000;
@@ -269,7 +254,8 @@
     --nude: #ebc8b2;
     --orange: #ffa500;
     --ratings: #FFB800;
-    /* social media colors */
+    
+    /* Social media colors - keep original */
     --facebook: #365493;
     --twitter: #3CF;
     --linkedin: #0077B5;
